@@ -10,7 +10,11 @@ function App() {
     })();
   });
 
-  return <div>{data}</div>;
+  return <div>
+    {data}
+    <a href="/.auth/login/aad">Login</a>
+    <a href="/.auth/logout">Log out</a>
+    </div>;
 }
 
 export default App;
